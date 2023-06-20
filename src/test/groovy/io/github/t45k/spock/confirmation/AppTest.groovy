@@ -15,7 +15,7 @@ class AppTest extends Specification {
         App.calcImageSize(IMAGE_PATH.bytes) > 0
     }
 
-    def 'stack because test target will be shown in test name'() {
+    def 'this test will be completed soon because I limit the length of test name'() {
         expect:
         App.calcImageSize(image) > 0
 
